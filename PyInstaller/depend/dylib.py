@@ -112,7 +112,7 @@ _win_excludes = {
 
 
 _unix_excludes = {
-    r'libc\.so(\..*)?',
+    #r'libc\.so(\..*)?',
     r'libdl\.so(\..*)?',
     #r'libm\.so(\..*)?',
     r'libpthread\.so(\..*)?',
