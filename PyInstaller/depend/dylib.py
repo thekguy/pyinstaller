@@ -138,8 +138,8 @@ _unix_excludes = {
     # libxcb-dri changes ABI frequently (e.g.: between Ubuntu LTS releases) and
     # is usually installed as dependency of the graphics stack anyway. No need
     # to bundle it.
-    r'libxcb\.so(\..*)?',
-    r'libxcb-dri.*\.so(\..*)?',
+    #r'libxcb\.so(\..*)?',
+    #r'libxcb-dri.*\.so(\..*)?',
 }
 
 _aix_excludes = {
